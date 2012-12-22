@@ -18,6 +18,7 @@ public final class R {
         public static final int button1=0x7f070001;
         public static final int button11=0x7f07000b;
         public static final int button12=0x7f07000c;
+        public static final int button13=0x7f07000d;
         public static final int button2=0x7f070002;
         public static final int button3=0x7f070003;
         public static final int button4=0x7f070004;
@@ -26,7 +27,7 @@ public final class R {
         public static final int button7=0x7f070007;
         public static final int button8=0x7f070008;
         public static final int button9=0x7f070009;
-        public static final int menu_settings=0x7f07000d;
+        public static final int menu_settings=0x7f07000e;
         public static final int textView1=0x7f070000;
     }
     public static final class layout {

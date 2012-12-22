@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		Button button[]=new Button[12];
+		Button button[]=new Button[13];
 		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 		button[9]=(Button)findViewById(R.id.button0);
 		button[10]=(Button)findViewById(R.id.button11);
 		button[11]=(Button)findViewById(R.id.button12);
-		
+		button[12]=(Button)findViewById(R.id.button13);
 		for (int i = 0; i <button.length; i++) {
 			button[i].setOnClickListener(listener);
 		}
@@ -87,6 +87,9 @@ public class MainActivity extends Activity {
  				break;
  			case R.id.button12:
  				textView.setText(getResult());
+ 				break;
+ 			case R.id.button13:
+ 				textView.setText("");
  				break;
  			}
      		
